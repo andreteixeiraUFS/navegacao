@@ -1,6 +1,6 @@
 
 import React from "react"
-import { View, Text, Button } from "react-native"
+import { View, Text, Button} from "react-native"
 
 
 export default function Home({ navigation }) {
@@ -11,6 +11,10 @@ export default function Home({ navigation }) {
             <Button
                 title="Ir para Perfil"
                 onPress={() => navigation.navigate('Profile')}
+            />
+            <Button
+                title="Ver Fotos"
+                onPress={() => navigation.navigate('Fotos')}
             />
         </View>
     );
